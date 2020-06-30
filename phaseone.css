@@ -1,0 +1,43 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  box-sizing: border-box; 
+  height: 100%;
+  font-size: 12px; 
+}
+
+body {
+  background-image:url(bg.jpg); 
+  background-size: cover; 
+  height: 100%; 
+}
+/* Adding Gold Color to wbpage*/
+main {
+  background-color: #ffd700; 
+  padding: 3em 5em !important; 
+}
+
+section {
+  padding-bottom: 2em;
+}
+
+h1 {
+  font-size: 6em; 
+}
+
+p,
+.btn {
+  font-size: 3em; 
+}
+
+nav ul {
+  list-style: none; 
+  display:flex;
+  justify-content:flex-end;
+}
+
+nav ul li a{
+  margin: 1em 1em 0 0; 
+}
